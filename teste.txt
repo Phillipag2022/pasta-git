@@ -1,5 +1,32 @@
-<include <stdio.h>
+#include <stdio.h>
 
 int main(){
-return 0;
+	
+	float nota1, nota2,nota3,nota4,nota5,nota6, media;
+
+	
+	
+	printf("escreva um numero 1:\n");
+	scanf("%f", &nota1);
+	
+	printf("escreva um numero 2: \n");
+	scanf("%f", &nota2);
+	
+	printf("escreva um numero 3: \n");
+	scanf("%f", &nota3);
+	
+	printf("escreva um numero 4: \n");
+	scanf("%f", &nota4);
+	
+	printf("escreva um numero 5: \n");
+	scanf("%f", &nota5);
+	
+	printf("escreva um numero 6: \n");
+	scanf("%f", &nota6);
+	
+	
+	media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6) / 6;
+	
+	 printf("media aritimetica  %.2f", media);
+
 }
